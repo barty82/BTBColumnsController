@@ -1,0 +1,18 @@
+PODS:
+  - KVOController (1.0.1)
+  - Mantle (1.4.1):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.4.1)
+  - OCMock (2.2.4)
+
+DEPENDENCIES:
+  - KVOController (~> 1.0.0)
+  - Mantle (~> 1.4)
+  - OCMock (~> 2.2.3)
+
+SPEC CHECKSUMS:
+  KVOController: 2205f0d1a24f919e92a8f0b3254ac3ca40412f1a
+  Mantle: 0714cdb2b8559d9e6c2410d6a8529e3307bff189
+  OCMock: 5008fae4b4789b8fc3e48cd7660f2eb5ef8ce89e
+
+COCOAPODS: 0.32.1
