@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		701062EE1909A946002BF290 /* BTBColumnsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701062ED1909A946002BF290 /* BTBColumnsViewController.m */; };
-		701062F11909C948002BF290 /* BTBColumnsViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 701062F01909C948002BF290 /* BTBColumnsViewControllerTest.m */; };
 		70F732171908731800666201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F732161908731800666201 /* Foundation.framework */; };
 		70F732191908731800666201 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F732181908731800666201 /* CoreGraphics.framework */; };
 		70F7321B1908731800666201 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F7321A1908731800666201 /* UIKit.framework */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		701062EC1909A946002BF290 /* BTBColumnsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBColumnsViewController.h; sourceTree = "<group>"; };
 		701062ED1909A946002BF290 /* BTBColumnsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBColumnsViewController.m; sourceTree = "<group>"; };
-		701062F01909C948002BF290 /* BTBColumnsViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBColumnsViewControllerTest.m; sourceTree = "<group>"; };
 		70F732131908731800666201 /* BTBColumnsController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTBColumnsController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F732161908731800666201 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70F732181908731800666201 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -104,7 +102,6 @@
 		701062EF1909C919002BF290 /* BTBColumnsControllerTests */ = {
 			isa = PBXGroup;
 			children = (
-				701062F01909C948002BF290 /* BTBColumnsViewControllerTest.m */,
 			);
 			name = BTBColumnsControllerTests;
 			sourceTree = "<group>";
@@ -365,7 +362,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				701062F11909C948002BF290 /* BTBColumnsViewControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

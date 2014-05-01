@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <KVOController/FBKVOController.h>
+#import "BTBColumnsViewController.h"
 
 
 #pragma mark - Interface extension of 'ViewController'
@@ -26,6 +26,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    BTBColumnsViewController *columnVC = nil;
+    columnVC = [[BTBColumnsViewController alloc]
+                initAndAddToViewWithAutoLayout:self.view];
+    
+    [self addChildViewController:columnVC];
+
 }
 
 - (void)didReceiveMemoryWarning

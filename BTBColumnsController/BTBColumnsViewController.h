@@ -28,10 +28,12 @@
 
 @interface BTBColumnsViewController : UIViewController
 
-@property(nonatomic, copy) UIView *rootColumnView;
-@property(nonatomic, readonly) UIScrollView *container;
 @property(nonatomic, copy) id<BTBColumnsViewControllerDelegate> delegate;
+@property(nonatomic, strong, readonly) UIScrollView *container;
 
-- (instancetype)initWithRootColumnView:(UIView *)rootColumnView andFrame:(CGRect)frame;
+- (instancetype)initWithFrame:(CGRect)frame
+                 andAddToView:(UIView *)parentView;
+
+- (instancetype)initAndAddToViewWithAutoLayout:(UIView *)parentView;
 
 @end
